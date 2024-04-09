@@ -1,0 +1,80 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* CityList component styles */
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th,
+  .table-container td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-container th {
+    background-color: #f2f2f2;
+  }
+  
+  .table-container tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* CityDetails component styles */
+  .weather-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .weather-container h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .weather-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .weather-info span {
+    font-weight: bold;
+  }
+  
+  /* Add more styles as needed */
+  
